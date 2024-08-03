@@ -1,0 +1,81 @@
+/* Tribunal.css */
+
+.tribunal-container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #2b2f3a;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.tribunal-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #ffeb3b;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.tribunal-instructions {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #cfd8dc;
+  animation: slideIn 0.7s ease-in;
+}
+
+.current-viewer-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #39424e;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.decision-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.timer {
+  font-size: 1.5em;
+  color: #ff5722;
+}
+
+.spared-count {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

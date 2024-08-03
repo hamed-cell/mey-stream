@@ -1,0 +1,110 @@
+/* Revenge.css */
+
+body {
+    background-color: #1e1f26;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .revenge-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #2b2f3a;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .revenge-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #ffeb3b;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .revenge-instructions {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #cfd8dc;
+    animation: slideIn 0.7s ease-in;
+  }
+  
+  .game-area {
+    margin-top: 30px;
+  }
+  
+  .viewer-vote-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #39424e;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .mey-choice-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #3e4551;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .mey-choices {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .game-over {
+    font-size: 1.8em;
+    color: #f44336;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
